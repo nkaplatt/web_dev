@@ -1,0 +1,153 @@
+body {
+  height: 100%;
+  background-color: #233237;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navlogin {
+  padding: 30px 50px;
+  overflow: auto;
+}
+
+.login {
+  background-color: #984B43;
+  float: right;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #EAC67A;
+}
+
+.logo {
+  float: left;
+  font-size: 28px;
+  color: #984B43;
+  text-decoration: none;
+}
+
+.centeralign {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  color: #EAC67A;
+}
+
+.center {
+  text-align: center;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.searchbar {
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.rangeform {
+  color: yellow;
+  padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+  background-color: maroon;
+}
+
+.shipimage {
+  width: 512px;
+  height: 312px;
+}
+
+.information {
+
+}
+
+.name {
+  color: yellow;
+}
+
+.year {
+
+}
+
+.operator {
+
+}
+
+.manufactor {
+
+}
+
+.capacity {
+
+}
+
+.error {
+  font-size: 44px;
+}
+
+.loginform {
+  float: right;
+  padding: 10px 20px;
+  background-color: violet;
+}
+
+.button {
+  background: #4E9CAF;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+.submit {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background: #4E9CAF;
+  border: none;
+  margin: 0px 5px;
+}
+
+.loginfield {
+  width: 180px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.signupfield {
+  width: 25%;
+  height: 40px;
+  box-shadow: 2px 2px 5px #888888;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 2px solid navy;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.signup {
+
+}
+
+.errorlogin {
+  float: right;
+  color: red;
+  font-size: 10px;
+  display: block;
+}
