@@ -41,7 +41,7 @@ CREATE TABLE `Operator_tbl` (
 DROP TABLE IF EXISTS `Manufactor_tbl`;
 CREATE TABLE `Manufactor_tbl` (
  Manufacturer_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
- Manufacturer VARCHAR(40) NOT NULL
+ Manufacturer VARCHAR(70) NOT NULL
 );
 
 DROP TABLE IF EXISTS `Ships_tbl`;
@@ -50,9 +50,9 @@ CREATE TABLE `Ships_tbl` (
  Boat_Name VARCHAR(40) NOT NULL,
  Year_Built INT(4) NOT NULL,
  Capacity INT(7) NOT NULL,
- Manufacturer_ID INT NOT NULL,
- Operator_ID INT NOT NULL,
- FOREIGN KEY (Manufacturer_ID) REFERENCES Manufactor_tbl(Manufacturer_ID) ON UPDATE CASCADE,
- FOREIGN KEY (Operator_ID) REFERENCES Operator_tbl(Operator_ID) ON UPDATE CASCADE,
+ Manufacturer VARCHAR(70) NOT NULL,
+ Operator VARCHAR(40) NOT NULL,
+ FOREIGN KEY (Manufacturer) REFERENCES Manufactor_tbl(Manufacturer) ON UPDATE CASCADE,
+ FOREIGN KEY (Operator) REFERENCES Operator_tbl(Operator) ON UPDATE CASCADE,
  Image VARCHAR(40) NOT NULL
 );

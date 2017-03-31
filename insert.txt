@@ -1,0 +1,39 @@
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('AL QIBLA',	2012,	13296, 'AlQibla.jpg', 'Samsung Heavy Industries Co Ltd', 'UASC');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('ALMA',	1998,	508, 'Alma.jpg', 'J.J. Sietas KG Schiffswerft GmbH & Co KG', 'Holwerda Shipmanagement');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('BARZAN',	2015,	19870, 'Barzan.jpg', 'Hyundai Samho Heavy Industries Co Ltd', 'UASC');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('CMA CGM BENJAMIN FRANKLIN',	2015,	17859, 'CMACGMBenjaminFranklin.jpg', 'Shanghai Jiangnan Changxing Heavy Industries Co Ltd', 'CMA CGM');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('CMA CGM JAMAICA',	2006,	4298, 'CMACGMJamaica.jpg', 'Hyundai Heavy Industries Co Ltd', 'CMA CGM');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ('CMA CGM VERLAINE',	2001,	6712, 'CMACGMVerlaine.jpg', 'Daewoo Shipbuilding & Marine Engineering Co Ltd', 'CMA CGM');
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+INSERT INTO `ships_tbl`(`Boat_Name`, `Year_Built`, `Capacity`, `Image`, `Manufacturer`, `Operator`) VALUES ();
+
+
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Samsung Heavy Industries Co Ltd');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('J.J. Sietas KG Schiffswerft GmbH & Co KG');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Hyundai Samho Heavy Industries Co Ltd');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Shanghai Jiangnan Changxing Heavy Industries Co Ltd');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Hyundai Heavy Industries Co Ltd');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Daewoo Shipbuilding & Marine Engineering Co Ltd');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Odense Staalskibsvaerft A/S');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Fincantieri-Cant. Nav. Italiani SpA');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Stocznia Szczecinska Nowa Sp z oo');
+INSERT INTO `Manufactor_tbl`(`Manufacturer`) VALUES ('Daewoo Heavy Industries Co Ltd');
+
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('UASC');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('Holwerda Shipmanagement');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('CMA CGM');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('Maersk Line');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('Hyundai');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('Hapag Lloyd');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('MSC');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('FESCO');
+INSERT INTO `Operator_tbl`(`Operator`) VALUES ('Yang Ming');

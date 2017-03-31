@@ -17,6 +17,7 @@ body {
   border: none;
   border-radius: 5px;
   color: #EAC67A;
+  text-decoration: none;
 }
 
 .logo {
@@ -42,7 +43,6 @@ body {
 .form {
   width: 50%;
   margin: 0 auto;
-  padding: 50px 0;
 }
 
 .searchbar {
@@ -54,11 +54,8 @@ body {
 }
 
 .rangeform {
-  color: yellow;
-  padding: 50px 0;
   width: 50%;
   margin: 0 auto;
-  background-color: maroon;
 }
 
 .shipimage {
@@ -67,27 +64,30 @@ body {
 }
 
 .information {
-
+  color: #EAC67A;
 }
 
 .name {
-  color: yellow;
+  color: #EAC67A;
 }
 
 .year {
-
+  color: #EAC67A;
 }
 
 .operator {
-
+  color: #EAC67A;
 }
 
 .manufactor {
-
+  color: #EAC67A;
 }
 
 .capacity {
-
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 .error {
@@ -97,25 +97,25 @@ body {
 .loginform {
   float: right;
   padding: 10px 20px;
-  background-color: violet;
 }
 
 .button {
-  background: #4E9CAF;
+  background: #984B43;
   padding: 10px;
   border-radius: 5px;
-  color: white;
+  color: #EAC67A;
   font-size: 14px;
   text-decoration: none;
   margin: 0px 5px;
+  border: none;
 }
 
 .submit {
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 5px;
-  color: white;
-  background: #4E9CAF;
+  color: #EAC67A;
+  background: #984B43;
   border: none;
   margin: 0px 5px;
 }
@@ -133,10 +133,8 @@ body {
 .signupfield {
   width: 25%;
   height: 40px;
-  box-shadow: 2px 2px 5px #888888;
   padding-left: 10px;
   font-size: 16px;
-  border: 2px solid navy;
   border-radius: 5px;
   margin: 10px;
 }
@@ -150,4 +148,65 @@ body {
   color: red;
   font-size: 10px;
   display: block;
+}
+
+.summary {
+  margin: 0 auto;
+}
+
+.select {
+  padding: 20px;
+}
+
+.capacity {
+  width: 30%;
+  height: 20px;
+}
+
+.spacer {
+  margin: 40px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.editbar {
+  width: 30%;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+}
+
+.file {
+  background-color: #984B43;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #EAC67A;
+  margin-top: 40px;
+}
+
+.editsubmit {
+  background: #984B43;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #EAC67A;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.delete {
+  text-align: center;
+  padding-top: 200px;
+  overflow: visible;
 }

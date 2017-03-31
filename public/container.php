@@ -1,6 +1,8 @@
 <?php
-  error_reporting(E_ALL);
   require_once('../resources/requirephp/header.php');
+  if (!isset($_SESSION['username'])) {
+    header("Location: index.php");
+  }
 ?>
 
 <!-- Header -->
@@ -11,48 +13,31 @@
     <!-- Nav bar for login -->
     <div class="navlogin">
       <a class="logo" href="index.php">FindUrContainer.co.uk</a>
-      <?php login_logout_button("hey"); ?>
+      <?php
+      $user_name = "nick";
+      require_once('../resources/requirephp/dbc.php');
+      login_logout_button($db, $user_name);
+      ?>
     </div>
 
     <!-- Div that center aligns the entire webpage -->
     <div class="centeralign">
-
       <section class="search">
-        <p class="center">
-          Is this now centered
-        </p>
         <div class="center">
-
           <?php
           require_once('../resources/requirephp/dbc.php');
-          $query = "SELECT * FROM `ships_tbl` WHERE 1";
-          $result = $db->query($query);
-
-          if ( $result -> num_rows > 0) {
-            while ( $row = $result -> fetch_assoc ()) {
-              $name = $row ['Boat_Name'];
-              $year = $row ['Year_Built'];
-              $capacity = $row ['Capacity'];
-              $manufactor = $row ['Manufactorer'];
-              $operator = $row ['Operator'];
-              $img =  $row ['Image'];
-            }
+          if(isset($_GET['boat'])) {
+            $name = $_GET['boat'];
+            sql_fetch_data($db, $name);
+          } else {
+            //header('Location: index.php'); // redirect back to homepage
           }
-          $img = '<img src="img/'.$img.'" alt="AlQibla" class="shipimage" />';
-          $name = '<h2 class="name">'.$name.'</h2>';
-          $year = '<h3 class="year">'.$year.'</h3>';
-          $capacity = '<p class="capacity">'.$capacity.'</p>';
-          $manufactor = '<p class="manufactor">'.$manufactor.'</p>';
-          $operator = '<p class="operator">'.$operator.'</p>';
           $db->close();
-          ?>
-
-          <?php echo $img . $operator. $manufactor. $capacity . $year . $name ;
+          echo '<a href="edit.php?boat='.$name.'">Edit Boat</a>';
+          echo '<a href="edit.php?delete='.$name.'">Delete Boat</a>';
+          echo '<a href="edit.php?boat=new">Add New Boat</a>';
           ?>
         </div>
-        <p class="name">
-          hey there
-        </p>
       </section>
     </div>
 
